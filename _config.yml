@@ -17,7 +17,7 @@ minimal_mistakes_skin    :  "air"
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "Linguistik bla bla Institut"
+title                    : "Grammatik des Deutschen"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Uni Leipzig"
@@ -28,7 +28,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : /assets/images/bojack.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-
+include                  : ["_pages"]
 
 
 # breadcrumbs            : false # true, false (default)
@@ -128,7 +128,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/BerLinguistin
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -284,7 +284,7 @@ defaults:
       comments: # true
       share: true
       related: true
-    # _pages
+  # _pages
   - scope:
       path: ""
       type: pages

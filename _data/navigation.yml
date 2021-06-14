@@ -1,14 +1,14 @@
 # main links
 main:
+  - title: "Schule"
+    url: /schule/
   - title: "Lehre"
     url: /lehre/
-  - title: "Abschlussarbeiten"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Publikationen"
-    url: /year-archive/
+    url: /publikationen/
   - title: "Projekte"
-    url: /collection-archive/
+    url: /projekte/
   - title: "Team"
-    url: /sitemap/
-  - title: "Team"
-    url: /sitemap/
+    url: /team/
+  - title: "Kontakt"
+    url: /kontakt/
