@@ -288,10 +288,8 @@ defaults:
   - scope:
       path: ""
       type: pages
+      title: ""
     values:
-      layout: splash
+      layout: single
       header:
-        overlay_image: /assets/images/bojack_banner_03.png
-        actions:
-          - label: "More Info"
-            url: /year-archive/
+        image: /assets/images/template_site_banner.png
