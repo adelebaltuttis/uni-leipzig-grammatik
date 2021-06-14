@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Lehre"
+    url: /lehre/
+  - title: "Abschlussarbeiten"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Publikationen"
+    url: /year-archive/
+  - title: "Projekte"
+    url: /collection-archive/
+  - title: "Team"
+    url: /sitemap/
+  - title: "Team"
+    url: /sitemap/
