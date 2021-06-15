@@ -1,5 +1,8 @@
 ---
 permalink: /lehre/
+title: Lehre    
+header:
+    image: /assets/images/template_site_banner_lehre.png
 ---
 
 # Lehre
