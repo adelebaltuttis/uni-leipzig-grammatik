@@ -3,7 +3,7 @@ permalink: /publikationen/
 title: Publikationen
 layout: single
 header:
-    image: /assets/images/template_site_banner_publikationen.png
+    image: /assets/images/banner_publikationen_narrow.png
 ---
 
 Hello publikationen page!
