@@ -17,7 +17,7 @@ minimal_mistakes_skin    :  "default"
 
 # Site Settings
 locale                   : "de-DE"
-title                    : "Grammatik des Deutschen"
+title                    : # Grammatik des Deutschen
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Uni Leipzig"
@@ -26,9 +26,9 @@ url                      : https://home.uni-leipzig.de # the base hostname & pro
 baseurl                  : /grammatik-des-deutschen # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/bojack.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : assets/images/institut_logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-include                  : ["_pages"]
+include                  : ["_pages"] # required for saving pages in subfolder /_pages
 
 
 breadcrumbs              : true # true, false (default)
@@ -300,7 +300,7 @@ defaults:
     values:
       layout: single
       header:
-        image: /assets/images/template_site_banner_home.png
+        image: /assets/images/template_site_banner_narrow.png
   # _team
   - scope:
       path: ""
