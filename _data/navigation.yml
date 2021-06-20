@@ -1,14 +1,16 @@
 # main links
 main:
-  - title: "Schule"
-    url: /schule/
-  - title: "Lehre"
-    url: /lehre/
-  - title: "Publikationen"
-    url: /publikationen/
-  - title: "Projekte"
-    url: /projekte/
+  - title: "Start"
+    url: /
+  - title: "Forschung"
+    url: /forschung/
   - title: "Team"
     url: /team/
+  - title: "Publikationen"
+    url: /publikationen/
+  - title: "Lehre"
+    url: /lehre/
+  - title: "Schule"
+    url: /schule/
   - title: "Kontakt"
     url: /kontakt/
