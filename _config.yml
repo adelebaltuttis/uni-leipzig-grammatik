@@ -300,7 +300,7 @@ defaults:
     values:
       layout: single
       header:
-        image: /assets/images/template_site_banner_narrow.png
+        image: /assets/images/banner/home_panorama.png
   # _team
   - scope:
       path: ""
