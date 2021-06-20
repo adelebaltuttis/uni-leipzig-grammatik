@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/team/placeholder_teaser.png
 sidebar:
 - title: ""
-  image: /assets/images/team/placeholder.png
+  image: /assets/images/team/photo_placeholder.png
   image_alt: "logo"
   text: "Wissenschaftliche Mitarbeiterin"
 - title: "Anschrift"
