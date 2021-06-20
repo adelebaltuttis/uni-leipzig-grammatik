@@ -2,7 +2,7 @@
 permalink: /lehre/
 title: Lehre    
 header:
-    image: /assets/images/banner_lehre_narrow.png
+    image: /assets/images/banner/lehre_panorama.png
 ---
 
 # Lehre
