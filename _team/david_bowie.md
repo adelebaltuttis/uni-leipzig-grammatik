@@ -4,14 +4,14 @@ classes: wide
 title: "David Bowie"
 name: David Bowie
 position: Rock Star
-excerpt_separator: "<!--more-->"
+excerpt: "David Bowie is the best. Mehr Erfahren"
 header:
   teaser: /assets/images/team/david-bowie-teaser.jpg
 sidebar:
 - title: "Position"
   image: /assets/images/team/david-bowie.jpg
   image_alt: "logo"
-  text: "Wissenschaftliche Mitarbeiterin"
+  text: "The Goblin King"
 - title: "Anschrift"
   text: "Germanistische Linguistik <br> Geisteswissenschaftliches Zentrum <br> Beethovenstraße 15, Raum 1412 <br> 04107 Leipzig"
 ---
