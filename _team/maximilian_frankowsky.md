@@ -3,23 +3,20 @@ layout: single
 classes: wide
 title: "Maximilian Frankowsky"
 name: Maximilian Frankowsky
-position: Seeker of Things Past
+excerpt_separator: "<!--more-->"
 header:
-  teaser: /assets/images/team/patrick.png
+  teaser: /assets/images/team/mad-max-teaser.jpg
 sidebar:
 - title: "Position"
-  image: /assets/images/team/patrick.png
+  image: /assets/images/team/mad-max.jpg
   image_alt: "logo"
   text: "Wissenschaftlicher Mitarbeiter"
 - title: "Anschrift"
   text: "Germanistische Linguistik <br> Geisteswissenschaftliches Zentrum <br> Beethovenstraße 15, Raum 1412 <br> 04107 Leipzig"
 ---
-<div>
-    {{page.name}} works as {{page.position}}.
-</div>
 
-## Kurzprofil
-Maximilian Frankowsky ist seit Oktober 2017 wissenschaftlicher Mitarbeiter am Lehrstuhl für Germanistische Linguistik/Grammatik. 
+Maximilian Frankowsky ist seit Oktober 2017 wissenschaftlicher Mitarbeiter am Lehrstuhl für Germanistische Linguistik/Grammatik.
+<!--more-->
 Er arbeitet vor allem zu den Themen Komposition und Reduplikation, befasst sich aber auch mit Flexionsmorphologie, 
 Nominalklassifikation und Semantik. 
 

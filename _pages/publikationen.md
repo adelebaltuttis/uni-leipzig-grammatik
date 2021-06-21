@@ -1,9 +1,10 @@
 ---
 permalink: /publikationen/
 title: Publikationen
-layout: single
+collection: publikationen
+layout: collection
 header:
-    image: /assets/images/banner_publikationen_narrow.png
+#    image: /assets/images/banner/publikationen_panorama.png
+#    image: /assets/images/banner/publikationen_abstract.png
+    image: /assets/images/banner/publikationen_default.png
 ---
-
-Hello publikationen page!
