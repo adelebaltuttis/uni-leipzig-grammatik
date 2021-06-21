@@ -4,14 +4,18 @@ classes: wide
 title: "David Bowie"
 name: David Bowie
 position: Rock Star
-excerpt: "David Bowie is the best. Mehr Erfahren"
+excerpt: "David Bowie is the best."
 header:
   teaser: /assets/images/team/david-bowie-teaser.jpg
 sidebar:
 - title: "Position"
   image: /assets/images/team/david-bowie.jpg
-  image_alt: "logo"
   text: "The Goblin King"
+- label: "Email"
+  icon: "fas fa-fw fa-envelope-square"
+  url: mailto:adelebaltuttis@gmail.com
+- title: "Sprechzeiten"
+  text: "Dienstag 13:30 – 14:30 Uhr <br> Vereinbarung per E-Mail"
 - title: "Anschrift"
   text: "Germanistische Linguistik <br> Geisteswissenschaftliches Zentrum <br> Beethovenstraße 15, Raum 1412 <br> 04107 Leipzig"
 ---
