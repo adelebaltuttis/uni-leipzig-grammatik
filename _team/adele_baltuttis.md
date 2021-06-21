@@ -12,6 +12,9 @@ sidebar:
   image-link: https://xkcd.com/
   image_alt: "logo"
   text: "Wissenschaftliche Mitarbeiterin"
+- label: "Email"
+  icon: "fas fa-fw fa-envelope-square"
+  url: mailto:your.name@email.com
 - title: "Anschrift"
   text: "Germanistische Linguistik <br> Geisteswissenschaftliches Zentrum <br> Beethovenstraße 15, Raum 1412 <br> 04107 Leipzig"
 ---

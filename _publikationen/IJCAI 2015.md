@@ -2,12 +2,18 @@
 title: "IJCAI 2015 (together with C. Panzee)"
 date: 2015-01-01
 sidebar:
-- title: "Authoren"
+- title: "Autoren"
   text: "David Bowie, James Bond et al"
+- title: "Published"
+- label: "Website"
+  icon: "fas fa-fw fa-link"
+  url: https://xkcd.com
 ---
 
 ## Link
-[Cookie](https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/)
+[test link](https://google.com)
+
+<i class="fas fa-fw fa-link" aria-hidden="true"></i>
 
 ## Abstract
 You're you'll can't appear cattle can't kind fruit. Over make bearing life moveth sea. Days one two forth under man one, days moveth creeping.
