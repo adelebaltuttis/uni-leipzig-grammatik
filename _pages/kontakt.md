@@ -1,8 +1,9 @@
 ---
-permalink: /kontakt/
-email: bla@gmail.com
-mail-icon: fas fa-fw fa-envelope-square
-mail-label: E-Mail Schreiben
+permalink   : /kontakt/
+title       : Kontakt & Anfahrt
+email       : bla@gmail.com
+mail-icon   : fas fa-fw fa-envelope-square
+mail-label  : E-Mail Schreiben
 header:
 #    image: assets/images/banner/kontakt_augustus.png
 #    image: assets/images/banner/kontakt_abstract.png
