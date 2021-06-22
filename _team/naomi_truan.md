@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: person
 classes: wide
 title: " Dr. Naomi Truan"
 name: Naomi Truan
@@ -16,6 +16,7 @@ sidebar:
   text: "+49 341 97-37403"
 - title: "Email"
   text: "naomi.truan@uni-leipzig.de"
+
 ---
 
 ## Profil
@@ -37,12 +38,13 @@ Im November 2020 wurde ich für den studentischen Lehrpreis der Universität Lei
 - Truan, N. <br>
 **Möglichkeiten und Herausforderungen einer pragmatisch orientierten kontrastiven Diskursanalyse. Ein Vorschlag am Beispiel deutscher, französischer und britischer Parlamentsdebatten** <br>
 *Diskurse – digital.* 2019. 1 (3). S. 29-50 <br>
+DOI: [10.25521/diskurse-digital.2019.104](https://majournals.bib.uni-mannheim.de/diskurse-digital/article/view/104)
 
 - Truan, N. <br>
 **The discursive construction of the people in European political discourse: Semantics and pragmatics of a contested concept in German, French, and British parliamentary debates** <br>
 In: Zienkowski, J.; Breeze, R. (Hrsg.) <br>
-*Imagining the Peoples of Europe. Populist discourses across the political spectrum.* Amsterdam/Philadelphia: John Benjamins. 2019. S. 201-228
-
+*Imagining the Peoples of Europe. Populist discourses across the political spectrum.* Amsterdam/Philadelphia: John Benjamins. 2019. S. 201-228 <br>
+DOI: [10.1075/dapsac.83.09tru](https://benjamins.com/catalog/dapsac.83.09tru)
 
 ## Vorträge 
 
