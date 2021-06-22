@@ -1,10 +1,18 @@
 ---
 layout: person
 accordion:
-- title: Background and inspiration
-  content: The central character in Ian Fleming's work is James Bond, an intelligence officer in the "Secret Service". Bond is also known by the code number 007 and, like Fleming, was portrayed as a Commander in the Royal Naval Volunteer Reserve and World War II veteran.
-- title: Inspiration for the character
-  content: Fleming based his creation on a number of individuals which he came across during his time in the Naval Intelligence Division during the Second World War, admitting that Bond "was a compound of all the secret agents and commando types I met during the war".[12] Among those types were his brother, Peter, whom Fleming worshipped[12] and who had been involved in behind the lines operations in Norway and Greece during the war.
+- title: Ausbildung
+  subitems:
+   - label: "April 2015"
+     content: "Wissenschaftliche Mitarbeiterin am Institut für Germanistik der Universität Leipzig, Lehrstuhl für Germanistische Linguistik/Grammatik (Prof. Dr. Barbara Schlücker)"
+   - label: "Mai 2016"
+     content: "Wissenschaftliche Hilfskraft am Institut für Germanistik der Universität Leipzig bei Prof. Dr. Barbara Schlücker"
+- title: Beruflicher Werdegang
+  subitems:
+  - label: 04/2018 - 03/2020
+    content: M.A.-Studiengang "Germanistik" (Schwerpunkt Sprachwissenschaft), Universität Leipzig
+  - label: Mai 2016
+    content: 10/2011 - 03/2015
 classes: wide
 title: "James bond"
 name: 007
