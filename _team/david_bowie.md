@@ -1,10 +1,23 @@
 ---
-layout: single
+layout: person
 classes: wide
 title: "David Bowie"
 name: David Bowie
 position: Rock Star
 excerpt: "David Bowie is the best."
+accordion:
+- title: Ausbildung
+  subitems:
+   - label: "April 2015" 
+     content: "Wissenschaftliche Mitarbeiterin am Institut für Germanistik der Universität Leipzig, Lehrstuhl für Germanistische Linguistik/Grammatik (Prof. Dr. Barbara Schlücker)"
+   - label: "Mai 2016"
+     content: "Wissenschaftliche Hilfskraft am Institut für Germanistik der Universität Leipzig bei Prof. Dr. Barbara Schlücker"
+- title: Beruflicher Werdegang
+  subitems:
+  - label: 04/2018 - 03/2020
+    content: M.A.-Studiengang "Germanistik" (Schwerpunkt Sprachwissenschaft), Universität Leipzig
+  - label: Mai 2016
+    content: 10/2011 - 03/2015
 header:
   teaser: /assets/images/team/david-bowie-teaser.jpg
 sidebar:
