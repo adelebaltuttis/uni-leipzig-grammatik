@@ -17,12 +17,25 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
             <b>{{ item.title }}</b>
         </label>
         {% if item.subitems %}
-        <div>
-        {% for subitem in item.subitems %}
-<!--            <b>&#8226; &nbsp; {{ subitem.label }}:</b> {{ subitem.content }} <br><br>-->
-        <b>{{ subitem.label }}</b>: {{ subitem.content }} <br><br>
-        {% endfor %}
-        </div>
+            <div>
+            {% for subitem in item.subitems %}
+                {% if subitem.label %}
+                    <b>{{ subitem.label }}</b>: {{ subitem.content }} <br><br>
+                {% endif %}
+                {% if subitem.author %}
+                    {{ subitem.author }} <br>
+                {% endif %}
+                {% if subitem.paper_title %}
+                    <b>{{ subitem.paper_title }}</b> <br>
+                {% endif %}
+                {% if subitem.publisher %}
+                    <i>{{ subitem.publisher }}</i> <br>
+                {% endif %}
+                {% if subitem.url %}
+                    {{ subitem.url | markdownify }} <br>
+                {% endif %}
+            {% endfor %}
+            </div>
         {% endif %}
     </li>
     {% endfor %}
