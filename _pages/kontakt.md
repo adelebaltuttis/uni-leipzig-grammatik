@@ -1,7 +1,7 @@
 ---
 permalink   : /kontakt/
 title       : Kontakt & Anfahrt
-email       : bla@gmail.com
+email       : mkonrad@uni-leipzig.de
 mail-icon   : fas fa-fw fa-envelope-square
 mail-label  : E-Mail Schreiben
 header:
@@ -14,11 +14,11 @@ header:
 **Institut für Germanistik**
 
 Geisteswissenschaftliches Zentrum <br>
-Beethovenstraße 15 <br>
+Beethovenstraße 15, Raum 1409 <br>
 04107 Leipzig
 
-**Telefon**: +49 341 97-37350  <br>
-**Telefax**: +49 341 97-37359
+**Telefon**: +49 341 97-37354  <br>
+**Telefax**: +49 341 97-37449
 
 <a href="mailto:{{page.email}}" rel="nofollow noopener noreferrer"> 
     <i class="{{page.mail-icon}}" aria-hidden="true"></i> 
