@@ -1,0 +1,18 @@
+---
+layout: archive
+---
+
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+
+    {% for post in collection.docs %}
+        {% if collection.label == "publikationen" %}
+            {{post.author}} <br>
+            <b>{{post.title}}</b> <br>
+            {{ post.publisher}}
+            {{ post.link | markdownify }}
+<!--            {% include archive-single.html %}-->
+        {% endif %}
+    {% endfor %}
+{% endfor %}

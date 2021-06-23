@@ -17,6 +17,10 @@ accordion:
   - author: "Truan, N."
     paper_title: "Möglichkeiten und Herausforderungen einer pragmatisch orientierten kontrastiven Diskursanalyse." 
     publisher: "Diskurse – digital. 2019. 1 (3). S. 29-50"
+    url: "[10.25521/diskurse-digital.2019.104](https://majournals.bib.uni-mannheim.de/diskurse-digital/article/view/104)" 
+  - author: "Truan, N."
+    paper_title: "Möglichkeiten und Herausforderungen einer pragmatisch orientierten kontrastiven Diskursanalyse."
+    publisher: "Diskurse – digital. 2019. 1 (3). S. 29-50"
     url: "[10.25521/diskurse-digital.2019.104](https://majournals.bib.uni-mannheim.de/diskurse-digital/article/view/104)"
 header:
   teaser: /assets/images/team/david-bowie-teaser.jpg
