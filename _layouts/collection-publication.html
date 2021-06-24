@@ -2,22 +2,7 @@
 layout: archive
 ---
 
-<!-- Builds the index count for all publications-->
-<ul class="taxonomy__index">
-    {% for collection in site.collections %}
-        {% if collection.label == "publikationen" %}
-            {% assign publicationsInYear = collection.docs | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-        {% endif %}
-    {% endfor %}
 
-    {% for year in publicationsInYear %}
-    <li>
-        <a href="#{{ year.name }}">
-            <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
-        </a>
-    </li>
-    {% endfor %}
-</ul>
 
 <!-- Collects and displays all publications by Year -->
 {% assign entries_layout = page.entries_layout | default: 'list' %}
