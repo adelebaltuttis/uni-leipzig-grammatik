@@ -302,6 +302,7 @@ defaults:
       title: ""
     values:
       author_profile: false
+      publication_profile: false
       layout: single
       header:
         #image: /assets/images/banner/home_panorama.png
