@@ -1,5 +1,8 @@
 ---
-title: "XKCD 2018 - Funny Graphs and how to parse them"
+author: "Bond, J."
+paper_title: "XKCD 2018 - Funny Graphs and how to parse them"
+publisher: "Zeitschrift für Germanistische Linguistik. 48 (2). S. 238-268"
+paper_link: "[DOI: 10.1515/zgl-2020-2002](https://www.degruyter.com/document/doi/10.1515/zgl-2020-2002/html)"
 date: 2016-01-01
 excerpt: "Paper by awesome people"
 ---

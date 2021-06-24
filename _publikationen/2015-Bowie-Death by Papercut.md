@@ -3,7 +3,7 @@ paper_title: "KR 2016 - Death by Papercut: A study of reading fatality rates"
 author: "David Bowie, James Bond et al"
 publisher: "Zeitschrift für Germanistische Linguistik. 48 (2). S. 238-268"
 paper_link: "[DOI: 10.1515/zgl-2020-2002](https://www.degruyter.com/document/doi/10.1515/zgl-2020-2002/html)"
-date: 2016-01-01
+date: 2015-01-01
 ---
 
 Own, is were brought him in, blessed yielding greater fourth wherein appear god lesser. So fly fruitful she'd the had moved yielding good appear and seas god every moved itself. Forth land seasons female set us also it days bring open.
