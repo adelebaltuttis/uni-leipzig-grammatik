@@ -1,10 +1,13 @@
 ---
-layout: single
+layout: person
 classes: wide
 title: "Maximilian Frankowsky"
 name: Maximilian Frankowsky
+last_name: Frankowsky
 excerpt: "Post Apokalyptischer Mitarbeiter"
 excerpt_separator: "<!--more-->"
+accordion:
+- title: Publikationen
 header:
   teaser: /assets/images/team/mad-max-teaser.jpg
 sidebar:

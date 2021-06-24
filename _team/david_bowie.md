@@ -3,6 +3,7 @@ layout: person
 classes: wide
 title: "David Bowie"
 name: David Bowie
+last_name: Bowie
 position: Rock Star
 excerpt: "David Bowie is the best."
 accordion:
@@ -13,15 +14,6 @@ accordion:
    - label: "Mai 2016"
      content: "Wissenschaftliche Hilfskraft am Institut für Germanistik der Universität Leipzig bei Prof. Dr. Barbara Schlücker"
 - title: Publikationen
-  subitems:
-  - author: "Truan, N."
-    paper_title: "Möglichkeiten und Herausforderungen einer pragmatisch orientierten kontrastiven Diskursanalyse." 
-    publisher: "Diskurse – digital. 2019. 1 (3). S. 29-50"
-    url: "[10.25521/diskurse-digital.2019.104](https://majournals.bib.uni-mannheim.de/diskurse-digital/article/view/104)" 
-  - author: "Truan, N."
-    paper_title: "Möglichkeiten und Herausforderungen einer pragmatisch orientierten kontrastiven Diskursanalyse."
-    publisher: "Diskurse – digital. 2019. 1 (3). S. 29-50"
-    url: "[10.25521/diskurse-digital.2019.104](https://majournals.bib.uni-mannheim.de/diskurse-digital/article/view/104)"
 header:
   teaser: /assets/images/team/david-bowie-teaser.jpg
 sidebar:
