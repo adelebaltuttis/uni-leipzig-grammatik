@@ -24,37 +24,23 @@ layout: archive
 
 
 <!--{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}-->
-{% for year in postsByYear %}
+{% for collection in site.collections %}
+    {% if collection.label == "publikationen" %}
+        {% assign publicationsInYear = collection.docs
+            | where_exp: "item", "item.hidden != true"
+            | group_by_exp: 'post', 'post.date | date: "%Y"'
+            | reverse %}
+    {% endif %}
+{% endfor %}
+
+{% for year in publicationsInYear %}
 <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
         {% for post in year.items %}
-        {% include archive-single.html type=entries_layout %}
+            {% include publication.html %}
         {% endfor %}
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
 </section>
-{% endfor %}
-
-
-{% capture written_label %}'None'{% endcapture %}
-{% for collection in site.collections %}
-    {% for post in collection.docs %}
-        {% if collection.label == "publikationen" %}
-            {% if post.author %}
-                {{post.author}} <br>
-            {% endif %}
-            {% if post.paper_title %}
-                <b>{{post.paper_title}}</b> <br>
-            {% endif %}
-            {% if post.publisher %}
-                {{ post.publisher}} <br>
-            {% endif %}
-            {% if post.paper_link %}
-                {{ post.paper_link | markdownify | remove: "<p>" | remove: "</p>"}} <br>
-            {% endif %}
-            <br>
-<!--            {% include archive-single.html %}-->
-        {% endif %}
-    {% endfor %}
 {% endfor %}
