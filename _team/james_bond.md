@@ -1,5 +1,7 @@
 ---
 layout: person
+name: James Bond
+last_name: Bond
 accordion:
 - title: Ausbildung
   subitems:
@@ -13,6 +15,7 @@ accordion:
     content: M.A.-Studiengang "Germanistik" (Schwerpunkt Sprachwissenschaft), Universität Leipzig
   - label: Mai 2016
     content: 10/2011 - 03/2015
+- title: Publikationen
 classes: wide
 title: "James bond"
 name: 007

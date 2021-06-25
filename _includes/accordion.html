@@ -16,6 +16,23 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
         <label for="accordion{{ forloop.index }}">
             <b>{{ item.title }}</b>
         </label>
+
+        <!-- Automatically prints all publications corresponding to current team member-->
+        {% if item.title == "Publikationen" %}
+            <div>
+            {% for collection in site.collections %}
+                {% if collection.label == "publikationen" %}
+                    {% assign publicationsByAuthor = collection.docs
+                        | where_exp: "item", "item.author contains page.last_name" %}
+                {% endif %}
+            {% endfor %}
+
+            {% for post in publicationsByAuthor %}
+                {% include publication.html %}
+            {% endfor %}
+            </div>
+        {% endif %}
+
         {% if item.subitems %}
             <div>
             {% for subitem in item.subitems %}

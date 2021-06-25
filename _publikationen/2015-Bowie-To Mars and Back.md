@@ -1,5 +1,8 @@
 ---
-title: "IJCAI 2015 (together with C. Panzee)"
+author: "Bowie, D."
+paper_title: "To Mars and Back with Major Tom"
+publisher: "Zeitschrift für Germanistische Linguistik. 48 (2). S. 238-268"
+paper_link: "[DOI: 10.1515/zgl-2020-2002](https://www.degruyter.com/document/doi/10.1515/zgl-2020-2002/html)"
 date: 2015-01-01
 sidebar:
 - title: "Autoren"

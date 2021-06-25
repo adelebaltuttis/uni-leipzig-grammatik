@@ -1,6 +1,13 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+{% if page.author_profile or layout.author_profile or page.sidebar or page.publication_profile %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  <!-- Checks whether page requires an author profile or a publication profile-->
+  {% if page.title == "Publikationen" %}
+    {% include publication-profile.html %}
+  {% elsif page.author_profile or layout.author_profile %}
+    {% include author-profile.html %}
+  {% endif %}
+
+  <!-- Creates a team member side bar TODO should be its own class-->
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}

@@ -1,0 +1,30 @@
+<!-- Creates a publication profile for the side bar. This includes a collection of Year Tags.-->
+<!-- Will only display publications that have been published after the publication_year_cutoff as defined in config.yml -->
+<h2 class="archive__subtitle"> Erscheinungsjahr</h2>
+
+<div>
+    {% for collection in site.collections %}
+        {% if collection.label == "publikationen" %}
+            {% assign publicationsInYear = collection.docs
+                | where_exp: "item", "item.hidden != true"
+                | group_by_exp: 'post', 'post.date
+                | date: "%Y"'
+                | reverse %}
+        {% endif %}
+    {% endfor %}
+
+    {% for year in publicationsInYear %}
+
+    <!-- Cuts off all publications as defined per publication_year_cutoff -->
+    {% assign currentYear = year.name | plus: 0 %}
+    {% if currentYear > site.publication_year_cutoff %}
+    <div class="page__taxonomy-item">
+        <a href="#{{ year.name }}">
+            <strong>{{ year.name }}: &nbsp;&nbsp;&nbsp;</strong>
+            <span class="taxonomy__count">{{ year.items | size }}</span>
+        </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+

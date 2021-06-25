@@ -1,0 +1,18 @@
+{% capture written_label %}'None'{% endcapture %}
+
+{% if post.author %}
+    {{post.author}} <br>
+{% endif %}
+{% if post.paper_title %}
+    <b>{{post.paper_title}}</b> <br>
+{% endif %}
+{% if post.publisher %}
+    {{ post.publisher}} <br>
+{% endif %}
+{% if post.paper_link %}
+    {{ post.paper_link | markdownify | remove: "<p>" | remove: "</p>"}} <br>
+{% endif %}
+<br>
+<!--            {% include archive-single.html %}-->
+
+
