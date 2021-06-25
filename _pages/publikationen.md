@@ -7,7 +7,7 @@ publication_profile: true
 # layout: categories
 classes: wide
 header:
-    image: /assets/images/banner/publikationen_default.png
+    image: /assets/images/banner/publikationen_default.jpg
 ---
 
 

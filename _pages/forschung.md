@@ -3,7 +3,7 @@ permalink: /forschung/
 header:
 #    image: /assets/images/banner/forschung_panorama.png
 #    image: /assets/images/banner/forschung_abstract.png
-    image: /assets/images/banner/forschung_default.png
+    image: /assets/images/banner/forschung_default.jpg
 classes: wide
 ---
 Prof. Dr. Barbara Schlücker und ihre Arbeitsgruppe befassen sich mit der Grammatik der deutschen Gegenwartssprache. Ihre Forschungsschwerpunkte liegen auf den Bereichen:
