@@ -31,6 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 include                  : ["_pages"] # required for saving pages in subfolder /_pages
 parent_url               : "https://www.philol.uni-leipzig.de/institut-fuer-germanistik/"
 publication_year_cutoff  : 2015
+privacy_policy_url       : /datenschutz
 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -308,7 +309,7 @@ defaults:
       header:
         #image: /assets/images/banner/home_panorama.png
         #image: /assets/images/banner/home_abstract.png
-        image: /assets/images/banner/home_default.png
+        image: /assets/images/banner/home_default.jpg
   # _team
   - scope:
       path: ""
