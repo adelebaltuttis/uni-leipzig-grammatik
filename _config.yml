@@ -26,11 +26,12 @@ url                      : https://home.uni-leipzig.de # the base hostname & pro
 baseurl                  : /grammatik-des-deutschen # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/bojack.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : assets/images/institut_logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : assets/images/institut_logo.svg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 include                  : ["_pages"] # required for saving pages in subfolder /_pages
 parent_url               : "https://www.philol.uni-leipzig.de/institut-fuer-germanistik/"
 publication_year_cutoff  : 2015
+privacy_policy_url       : /datenschutz
 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -308,7 +309,7 @@ defaults:
       header:
         #image: /assets/images/banner/home_panorama.png
         #image: /assets/images/banner/home_abstract.png
-        image: /assets/images/banner/home_default.png
+        image: /assets/images/banner/home_default.jpg
   # _team
   - scope:
       path: ""
