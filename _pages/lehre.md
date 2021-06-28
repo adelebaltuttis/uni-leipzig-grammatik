@@ -4,7 +4,7 @@ title: Lehre
 header:
 #    image: /assets/images/banner/lehre_panorama.png
 #    image: /assets/images/banner/lehre_abstract.png
-    image: /assets/images/banner/lehre_default.png
+    image: /assets/images/banner/lehre_default.jpg
 classes: wide
 ---
 

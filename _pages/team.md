@@ -8,5 +8,5 @@ classes: wide
 header:
 #    image: /assets/images/banner/team_panorama.png
 #    image: /assets/images/banner/team_abstract.png
-    image: /assets/images/banner/team_default.png
+    image: /assets/images/banner/team_default.jpg
 ---
