@@ -1,8 +1,8 @@
 ---
 article:
-  - title       : "Musterpaper - Jedes Muster hat seinen Muster"
-  - author      : Max Mustermann  
-  - journal     : muster journal"
+  - author      : Mustermann M.
+  - title       : The independence of the continuum hypothesis
+  - journal     : Proceedings of the National Academy of Sciences
   - volume      : 42
   - number      : 3
   - pages       : 122-211

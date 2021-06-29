@@ -1,0 +1,30 @@
+{% capture written_label %}'None'{% endcapture %}
+<b>Paper:</b><br>
+{% for key in post.article %}
+{% if key.author %}
+    {{ key.author | remove: "<p>" | remove: "</p>" }} :
+{% endif %}
+
+{% if key.title %}
+    <b>{{ key.title }}</b>.
+{% endif %}
+
+{% if key.journal %}
+    <i>{{ key.journal }} </i>
+{% endif %}
+
+{% if key.volume %}
+    {{ key.volume }}
+{% endif %}
+
+{% if key.number %}
+    ({{ key.number }})
+{% endif %}
+
+{% if key.pages %}
+    :{{ key.pages }}
+{% endif %}
+
+{% endfor %}
+
+

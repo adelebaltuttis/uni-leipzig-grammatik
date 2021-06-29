@@ -1,0 +1,11 @@
+---
+inproceedings:
+    - author    = "Holleis, Paul and Wagner, Matthias and Koolwaaij, Johan",
+    - title     = "Studying mobile context-aware social services in the wild",
+    - booktitle = "Proc. of the 6th Nordic Conf. on Human-Computer Interaction",
+    - series    = "NordiCHI",
+    - year      = 2010,
+    - pages     = "207--216",
+    - publisher = "ACM",
+    - address   = "New York, NY"
+---
