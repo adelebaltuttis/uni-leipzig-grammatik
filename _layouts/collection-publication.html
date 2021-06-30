@@ -23,13 +23,12 @@ layout: archive
             {% if post.type == "article" %}
                 {% include article.html %}
             {% elsif post.type == "book" %}
-               <h2>this is a book</h2>
+                {% include book.html %}
             {% elsif post.type == "inbook" %}
                  {% include inbook.html %}
             {% elsif post.type == "inproceedings" %}
-                <h2> this is a paper from a conference</h2>
                  {% include inproceedings.html %}
-        {% else %}
+            {% else %}
                 {% include publication.html %}
             {% endif %}
         {% endfor %}
