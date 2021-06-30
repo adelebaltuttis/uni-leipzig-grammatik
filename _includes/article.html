@@ -1,4 +1,5 @@
 {% capture written_label %}'None'{% endcapture %}
+<p>
 
 {% if post.author %}
     {{ post.author | remove: "<p>" | remove: "</p>" }} <br>
@@ -14,23 +15,21 @@
 
 {% if post.volume %}
     {{ post.volume }}
+
+    {% if post.number %}
+        ({{ post.number }}):
+    {% else %}
+        :
+    {% endif %}
 {% endif %}
 
-{% if post.number %}
-    ({{ post.number }}):
-{% endif %}
+
 
 {% if post.pages %}
     {{ post.pages | strip }}
 {% endif %}
 
-{% if post.doi and post.weblink %}
-    <br><a href="{{ post.weblink }}">DOI: {{ post.doi }}</a>
-{% elsif post.doi %}
-    {% assign doi_prefix = "https://doi.org/" %}
-    <br><a href="{{ doi_prefix }}{{ post.doi }}">DOI: {{ post.doi  }}</a>
-{% elsif post.weblink %}
-    <br><a href="{{ post.weblink }}">{{ post.weblink }}</a>
-{% endif %}
-<br>
+{% include publication-weblink.html %}
+
+</p>
 

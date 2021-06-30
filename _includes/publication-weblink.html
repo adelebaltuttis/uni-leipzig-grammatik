@@ -1,0 +1,15 @@
+
+{% if post.doi and post.weblink %}
+    <br><a href="{{ post.weblink }}">DOI: {{ post.doi }}</a>
+{% elsif post.doi %}
+    {% assign doi_prefix = "https://doi.org/" %}
+    <br><a href="{{ doi_prefix }}{{ post.doi }}">DOI: {{ post.doi  }}</a>
+{% elsif post.weblink %}
+
+    {% if post.isbn %}
+        <br><a href="{{ post.weblink }}">ISBN: {{ post.isbn }}</a>
+    {% else %}
+        <br><a href="{{ post.weblink }}">{{ post.weblink }}</a>
+    {% endif %}
+
+{% endif %}
