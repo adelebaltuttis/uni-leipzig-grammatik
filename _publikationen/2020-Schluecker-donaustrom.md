@@ -1,7 +1,7 @@
 ---
 type        : article
 author      : Schlücker, B.
-title       : Von Donaustrom zu Donauwelle. Die Entwicklung der Eigennamenkomposition von 1600–1900
+title       : Von <i>Donaustrom</i> zu <i>Donauwelle</i>. Die Entwicklung der Eigennamenkomposition von 1600–1900
 journal     : Zeitschrift für Germanistische Linguistik
 volume      : 48
 number      : 2

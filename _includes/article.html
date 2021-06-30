@@ -13,15 +13,15 @@
     In <i>{{ post.journal }} </i>
 {% endif %}
 
-{% if post.volume %}
-    {{ post.volume }}
+{%- if post.volume -%}
+    {{ post.volume -}}
 
-    {% if post.number %}
-        ({{ post.number }}):
-    {% else %}
+    {%- if post.number -%}
+        ({{ post.number -}}):
+    {%- else -%}
         :
-    {% endif %}
-{% endif %}
+    {%- endif -%}
+{%- endif -%}
 
 
 
