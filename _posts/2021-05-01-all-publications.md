@@ -2,24 +2,6 @@
 Folgende müssen noch geändert werden:
 
 
-author: "Schlücker, B.; Hannken-Illjes, K.; Dehé, N."
-title: "Zuhören vs. Lesen: Verständnis literarischer Texte bei Schüler_innen"
-publisher: "<i>Zeitschrift für Angewandte Linguistik.</i> 2017. 67 (1). S. 149-177"
-weblink: "[DOI: 10.1515/zfal-2017-0021](https://www.degruyter.com/document/doi/10.1515/zfal-2017-0021/html)"
-year: 2017-01-01
-
-author: "Schlücker, B."
-title: "Eigennamenkomposita im Deutschen"
-publisher: "<i>Linguistische Berichte Sonderheft.</i> 2017. S. 59-93"
-weblink: "[ISBN: 978-3-87548-820-3](https://katalog.ub.uni-leipzig.de/Record/0-876070829)"
-year: 2017-01-01
-
-author: "Helmbrecht, J.; Nübling, D.; Schlücker, B. (Hrsg.)"
-title: "Namengrammatik"
-publisher: "<i>Linguistische Berichte Sonderheft.</i> 2017. 23"
-weblink: "[ISBN: 978-3-87548-820-3](https://katalog.ub.uni-leipzig.de/Record/0-876070829)"
-year: 2017-01-01
-
 author: Ackermann, T.; Schlücker, B. (Hrsg.)"
 title: "The Morphosyntax of Proper Names"
 publisher: "<i>Folia Linguistica.</i> 2017. 51 (2)"
