@@ -1,30 +1,36 @@
 {% capture written_label %}'None'{% endcapture %}
-<b>Paper:</b><br>
-{% for key in post.article %}
-{% if key.author %}
-    {{ key.author | remove: "<p>" | remove: "</p>" }} :
+
+{% if post.author %}
+    {{ post.author | remove: "<p>" | remove: "</p>" }} <br>
 {% endif %}
 
-{% if key.title %}
-    <b>{{ key.title }}</b>.
+{% if post.title %}
+    <b>{{ post.title }}</b> <br>
 {% endif %}
 
-{% if key.journal %}
-    <i>{{ key.journal }} </i>
+{% if post.journal %}
+    In <i>{{ post.journal }} </i>
 {% endif %}
 
-{% if key.volume %}
-    {{ key.volume }}
+{% if post.volume %}
+    {{ post.volume }}
 {% endif %}
 
-{% if key.number %}
-    ({{ key.number }})
+{% if post.number %}
+    ({{ post.number }}):
 {% endif %}
 
-{% if key.pages %}
-    :{{ key.pages }}
+{% if post.pages %}
+    {{ post.pages | strip }}
 {% endif %}
 
-{% endfor %}
-
+{% if post.doi and post.weblink %}
+    <br><a href="{{ post.weblink }}">DOI: {{ post.doi }}</a>
+{% elsif post.doi %}
+    {% assign doi_prefix = "https://doi.org/" %}
+    <br><a href="{{ doi_prefix }}{{ post.doi }}">DOI: {{ post.doi  }}</a>
+{% elsif post.weblink %}
+    <br><a href="{{ post.weblink }}">{{ post.weblink }}</a>
+{% endif %}
+<br>
 

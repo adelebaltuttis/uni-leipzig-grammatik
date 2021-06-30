@@ -20,15 +20,16 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
         {% for post in year.items %}
-            {% if post.article %}
+            {% if post.type == "article" %}
                 {% include article.html %}
-            {% elsif post.book %}
+            {% elsif post.type == "book" %}
                <h2>this is a book</h2>
-            {% elsif post.inbook %}
-                <h2> these are pages from a book</h2>
-            {% elsif post.inproceedings %}
+            {% elsif post.type == "inbook" %}
+                 {% include inbook.html %}
+            {% elsif post.type == "inproceedings" %}
                 <h2> this is a paper from a conference</h2>
-             {% else %}
+                 {% include inproceedings.html %}
+        {% else %}
                 {% include publication.html %}
             {% endif %}
         {% endfor %}
