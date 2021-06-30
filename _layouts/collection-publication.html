@@ -9,9 +9,11 @@ layout: archive
 {% for collection in site.collections %}
     {% if collection.label == "publikationen" %}
         {% assign publicationsInYear = collection.docs
+            | sort: "year"
+            | reverse
             | where_exp: "item", "item.hidden != true"
-            | group_by_exp: 'post', 'post.date | date: "%Y"'
-            | reverse %}
+            | group_by_exp: 'post', 'post.year | date: "%Y"'
+        %}
     {% endif %}
 {% endfor %}
 
