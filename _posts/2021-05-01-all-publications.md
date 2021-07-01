@@ -3,18 +3,6 @@ Folgende müssen noch geändert werden:
 
 
 author: "Schlücker, B."
-title: "REZENSION zu Fábregas & Scalise (2012), Morphology. From data to theories"
-publisher: "<i>Word Structure.</i> 2014. 7 (2). S. 240-245"
-weblink: "[DOI: https://doi.org/10.3366/word.2014.0067](https://www.euppublishing.com/doi/10.3366/word.2014.0067)"
-year: 2014-01-01
-
-author: "Schlücker, B."
-title: "Van 'nae des Conings doot' tot 'het milieu der musical-fanaten'. De ontwikkeling van de genitief in het Nederlands en in het Duits. RECENSIE van Scott (2014), The Genitive Case in Dutch and German. A Study of Morphosyntactic Change in Codified Languages."
-publisher: "<i>Internationale Neerlandistiek.</i> 2014. 52 (3 (Korrigierte Version in: 53.1, 78-82 (2015))). S. 273-277"
-weblink: "[DOI: https://doi.org/10.5117/IN2015.1.GEOR](https://www.aup-online.com/content/journals/10.5117/IN2015.1.GEOR)"
-year: 2014-01-01
-
-author: "Schlücker, B."
 title: "Grammatik im Lexikon. Adjektiv-Nomen-Verbindungen im Deutschen und Niederländischen"
 publisher: "Berlin, Boston: de Gruyter. 2014"
 weblink: "[DOI: https://doi.org/10.1515/9783110347838](https://www.degruyter.com/document/doi/10.1515/9783110347838/html)"
