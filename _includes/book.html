@@ -3,19 +3,19 @@
 <p>
 
     {% if post.author %}
-    {{ post.author }} <br>
+        {{ post.author }} <br>
     {% endif %}
 
     {% if post.title %}
-    <b>{{ post.title }}</b> <br>
+        <b>{{ post.title }}.</b> <br>
     {% endif %}
 
     {% if post.publisher %}
-    {{ post.publisher }}.
+        {{ post.publisher }}.
     {% endif %}
 
     {% if post.address %}
-    {{ post.address }}.
+        {{ post.address }}.
     {% endif %}
 
     {% include publication-weblink.html %}

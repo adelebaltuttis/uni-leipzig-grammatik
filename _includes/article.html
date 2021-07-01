@@ -6,29 +6,25 @@
 {% endif %}
 
 {% if post.title %}
-    <b>{{ post.title }}</b> <br>
+    <b>{{ post.title }}.</b> <br>
 {% endif %}
 
-{% if post.journal %}
+{%- if post.journal -%}
     In <i>{{ post.journal }} </i>
-{% endif %}
+{%- endif -%}
 
 {%- if post.volume -%}
     {{ post.volume -}}
 
     {%- if post.number -%}
-        ({{ post.number -}}):
-    {%- else -%}
-        :
+        ({{ post.number -}})
     {%- endif -%}
 {%- endif -%}
 
-
-
-{% if post.pages %}
-    {{ post.pages | strip }}
-{% endif %}
-
+{%- if post.pages -%}
+    :{{ post.pages | strip }}
+{%- endif -%}
+.
 {% include publication-weblink.html %}
 
 </p>
