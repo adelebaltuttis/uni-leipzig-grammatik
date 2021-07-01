@@ -1,7 +1,7 @@
 ---
 type        : article
 author      : Schlücker, B.
-title       : "Karen Gräfe: Zur Fremdwortbildung bei den Adjektiven am Beispiel von 'al', 'ell', 'iv', 'ant' und 'ent'"
+title       : "Karen Gräfe: Zur Fremdwortbildung bei den Adjektiven am Beispiel von <i>'al', 'ell', 'iv', 'ant'</i> und <i>'ent'</i>"
 journal     : Deutsch als Fremdsprache
 volume      : 55
 number      : 4

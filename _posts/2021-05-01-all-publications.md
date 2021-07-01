@@ -2,57 +2,6 @@
 Folgende müssen noch geändert werden:
 
 
-author: Ackermann, T.; Schlücker, B. (Hrsg.)"
-title: "The Morphosyntax of Proper Names"
-publisher: "<i>Folia Linguistica.</i> 2017. 51 (2)"
-weblink: "[DOI: https://doi.org/10.1515/flin-2017-0011](https://www.degruyter.com/document/doi/10.1515/flin-2017-0011/html)"
-year: 2017-01-01
-
-author: "Schlücker, B.; Ackermann, T."
-title: "The morphosyntax of proper names: An overview"
-publisher: "<i>Folia Linguistica.</i> 2017. 51 (2). S. 309-339"
-weblink: "[DOI: 10.1515/flin-2017-0011](https://www.degruyter.com/document/doi/10.1515/flin-2017-0011/html)"
-year: 2017-01-01
-
-author: "Schlücker, B.; Arndt-Lappe, S.; Bell, M. J.; Schäfer, M."
-title: "Introduction: Modelling compound properties"
-publisher: "<i>Morphology.</i> 2016. 26 (2). S. 105-108"
-weblink: "[DOI: https://doi.org/10.1007/s11525-016-9285-4](https://link.springer.com/article/10.1007/s11525-016-9285-4)"
-year: 2016-01-01
-
-author: "Schlücker, B."
-title: "REZENSION zu Katrin Hein (2015), Phrasenkomposita im Deutschen. Empirische Untersuchung und konstruktionsgrammatische Modellierung"
-publisher: "<i>Zeitschrift für Rezensionen zur germanistischen Sprachwissenschaft.</i> 2016. 8 (1-2). S. 160-164"
-weblink: "[DOI: https://doi.org/10.1515/zrs-2016-0029](https://www.degruyter.com/document/doi/10.1515/zrs-2016-0029/html)"
-year: 2016-01-01
-
-author: "Schlücker, B.; Arndt-Lappe, S.; Bell, M. J.; Schäfer, M. (Hrsg.)"
-title: "Modelling Compound Properties"
-publisher: "<i>Special Issue Morphology.</i> 2016. 26 (2)"
-weblink: "[DOI: https://doi.org/10.1007/s11525-016-9285-4](https://link.springer.com/article/10.1007%2Fs11525-016-9285-4)"
-year: 2016-01-01
-
-author: "Hannken-Illjes, K.; Schlücker, B.; Dehé, N."
-title: "Literatur lieber hören? Zum Einfluss des Hörens auf die Rezeptionsmotivation bei literarischen Texten im Deutschunterricht"
-publisher: "In: Bung, S.; Schrödl, J. (Hrsg.)
-<i>Phänomen Hörbuch. Interdisziplinäre Perspektiven und medialer Wandel.</i> Bielefeld: Transcript. 2016. S. 153-172"
-weblink: "[DOI: http://dx.doi.org/10.14361/9783839434383](https://www.degruyter.com/document/doi/10.14361/9783839434383/html)"
-year: 2016-01-01
-
-author: "Schlücker, B.; Hüning, M."
-title: "Multi-word expressions"
-publisher: "In: Müller, P. O.; Ohnheiser, I.; Olsen, S.; Rainer, F. (Hrsg.)
-<i>Word-Formation. An International Handbook of the Languages of Europe.</i> Berlin, New York: De Gruyter Mouton. 2015. S. 450-467"
-weblink: "[DOI: https://doi.org/10.1515/9783110246254](https://www.degruyter.com/document/doi/10.1515/9783110246254/html)"
-year: 2015-01-01
-
-author: "Schlücker, B."
-title: "Adjective-noun compounding in Parallel Architecture"
-publisher: "In: ten Hacken, P. (Hrsg.)
-<i>The Semantics of Compounding.</i> Cambridge: Cambridge University Press. 2015. S. 178-191"
-weblink: "[DOI: doi:10.1017/CBO9781316163122.010](https://www.cambridge.org/core/books/semantics-of-compounding/adjectivenoun-compounding-in-parallel-architecture/CA82493AEC1C4F6548BC465B4A21EC92)"
-year: 2015-01-01
-
 author: "Schlücker, B."
 title: "REZENSION zu Fábregas & Scalise (2012), Morphology. From data to theories"
 publisher: "<i>Word Structure.</i> 2014. 7 (2). S. 240-245"
