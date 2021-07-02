@@ -18,23 +18,28 @@ layout: archive
 {% endfor %}
 
 {% for year in publicationsInYear %}
-<section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div class="entries-{{ entries_layout }}">
-        {% for post in year.items %}
-            {% if post.type == "article" %}
-                {% include article.html %}
-            {% elsif post.type == "book" %}
-                {% include book.html %}
-            {% elsif post.type == "inbook" %}
-                 {% include inbook.html %}
-            {% elsif post.type == "inproceedings" %}
-                 {% include inproceedings.html %}
-            {% else %}
-                {% include publication.html %}
-            {% endif %}
-        {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</section>
+<!-- Cuts off all publications as defined per publication_year_cutoff -->
+    {% assign currentYear = year.name | plus: 0 %}
+    {% if currentYear > site.publication_year_cutoff %}
+        <section id="{{ year.name }}" class="taxonomy__section">
+            <h2 class="archive__subtitle">{{ year.name }}</h2>
+            <div class="entries-{{ entries_layout }}">
+                <!-- Calls the corresponding publication type. Default is publication.html -->
+                {% for post in year.items %}
+                    {% if post.type == "article" %}
+                        {% include article.html %}
+                    {% elsif post.type == "book" %}
+                        {% include book.html %}
+                    {% elsif post.type == "inbook" %}
+                         {% include inbook.html %}
+                    {% elsif post.type == "inproceedings" %}
+                         {% include inproceedings.html %}
+                    {% else %}
+                        {% include publication.html %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        </section>
+    {% endif %}
 {% endfor %}
