@@ -1,6 +1,7 @@
 ---
+layout: lehraktivitaet-archive
 permalink: /lehre/
-title: Lehre    
+title: Lehre   
 header:
 #    image: /assets/images/banner/lehre_panorama.png
 #    image: /assets/images/banner/lehre_abstract.png
@@ -11,6 +12,10 @@ classes: wide
 ## Abschlussarbeiten
 
 *Liste mit von uns betreuten Arbeiten*
+
+[Bachelorarbeiten](bachelor/) <br>
+[Masterarbeiten](master) <br>
+[Staatsexamensarbeiten](stex) 
 
 ## Lehraktivitäten
 

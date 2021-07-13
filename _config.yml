@@ -84,6 +84,8 @@ collections:
     imagepath: /assets/images/team/
   publikationen:
     output: true
+  lehraktivitaeten: 
+    output: true
 
 # Social Sharing
 twitter:
