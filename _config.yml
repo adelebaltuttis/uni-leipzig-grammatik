@@ -328,3 +328,11 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _lehraktivitaeten
+  - scope:
+      path: ""
+      type: lehraktivitaeten
+    values:
+      layout: single
+      author_profile: false
+      share: true

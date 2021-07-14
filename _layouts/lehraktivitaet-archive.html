@@ -25,7 +25,6 @@ layout: archive
 <!-- Writes out the newest post in full, and displays only links to all others-->
 {% assign show_entire_post = true %}
 {% for year in postsByYear %}
-        <section id="{{ year.name }}" class="taxonomy__section">
             <div class="entries-{{ entries_layout }}">
                 {% for post in year.items %}
                     {% if show_entire_post %}
@@ -36,6 +35,4 @@ layout: archive
                     {% endif %}
                 {% endfor %}
             </div>
-            <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-        </section>
 {% endfor %}
