@@ -8,19 +8,34 @@ layout: archive
 
 {% capture written_label %}'None'{% endcapture %}
 
+<!-- Ensures that the newest post is fully displayed-->
+
+<!-- Collects all posts belonging to Lehraktivitaten and sorts them by year in reverse chronological order -->
 {% for collection in site.collections %}
   {% if collection.label == "lehraktivitaeten" %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% capture label %}{{ collection.label }}{% endcapture %}
-      {% if label != written_label %}
-        
-        {% capture written_label %}{{ label }}{% endcapture %}
-      {% endif %}
-    {% endunless %}
-    {% for post in collection.docs %}
-      {% unless collection.output == false or collection.label == "posts" %}
-        {% include archive-single.html %}
-      {% endunless %}
-    {% endfor %}
+    {% assign postsByYear = collection.docs
+        | sort: "year"
+        | reverse
+        | where_exp: "item", "item.hidden != true"
+        | group_by_exp: 'post', 'post.year | date: "%Y"'
+    %}
   {% endif %}
+{% endfor %}
+
+<!-- Writes out the newest post in full, and displays only links to all others-->
+{% assign show_entire_post = true %}
+{% for year in postsByYear %}
+        <section id="{{ year.name }}" class="taxonomy__section">
+            <div class="entries-{{ entries_layout }}">
+                {% for post in year.items %}
+                    {% if show_entire_post %}
+                        {% include lehraktivitaet-single.html type=entries_layout %}
+                        {% assign show_entire_post = false %}
+                    {% else %}
+                        {% include lehraktivitaet-link.html type=entries_layout %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        </section>
 {% endfor %}
