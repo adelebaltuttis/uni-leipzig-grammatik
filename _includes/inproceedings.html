@@ -1,0 +1,37 @@
+{% capture written_label %}'None'{% endcapture %}
+
+<p>
+{% if post.author %}
+{{ post.author | remove: "<p>" | remove: "</p>" }} <br>
+{% endif %}
+
+{% if post.title %}
+    <b>{{ post.title }}.</b> <br>
+{% endif %}
+
+{% if post.booktitle %}
+    In <i>
+
+    {% if post.series %}
+        {{ post.series }}:
+    {% endif %}
+
+    {{ post.booktitle }}: </i>
+{% endif %}
+
+{% if post.pages %}
+    {{ post.pages }},
+{% endif %}
+
+{% if post.address %}
+    {{ post.address }}.
+{% endif %}
+
+{% if post.publisher %}
+    {{ post.publisher }}.
+{% endif %}
+
+{% include publication-weblink.html %}
+
+</p>
+

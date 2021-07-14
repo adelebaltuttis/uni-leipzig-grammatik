@@ -1,0 +1,32 @@
+{% capture written_label %}'None'{% endcapture %}
+
+<p>
+
+{% if post.author %}
+    {{ post.author }} <br>
+{% endif %}
+
+{% if post.title %}
+<b>{{ post.title }}.</b> <br>
+{% endif %}
+
+{%- if post.booktitle -%}
+    In <i> {{ post.booktitle -}}:</i>
+{%- endif -%}
+
+{%- if post.pages -%}
+    {{ post.pages -}}.
+{%- endif -%}
+
+{% if post.publisher %}
+    {{ post.publisher }}.
+{% endif %}
+
+{% if post.address %}
+    {{ post.address }}.
+{% endif %}
+
+{% include publication-weblink.html %}
+
+</p>
+

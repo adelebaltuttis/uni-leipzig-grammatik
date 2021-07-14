@@ -23,12 +23,24 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
             {% for collection in site.collections %}
                 {% if collection.label == "publikationen" %}
                     {% assign publicationsByAuthor = collection.docs
+                        | sort: "year"
+                        | reverse
                         | where_exp: "item", "item.author contains page.last_name" %}
                 {% endif %}
             {% endfor %}
 
             {% for post in publicationsByAuthor %}
-                {% include publication.html %}
+                {% if post.type == "article" %}
+                    {% include article.html %}
+                {% elsif post.type == "book" %}
+                    {% include book.html %}
+                {% elsif post.type == "inbook" %}
+                {% include inbook.html %}
+                {% elsif post.type == "inproceedings" %}
+                    {% include inproceedings.html %}
+                {% else %}
+                    {% include publication.html %}
+                {% endif %}
             {% endfor %}
             </div>
         {% endif %}

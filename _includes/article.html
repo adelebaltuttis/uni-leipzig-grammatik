@@ -1,0 +1,31 @@
+{% capture written_label %}'None'{% endcapture %}
+<p>
+
+{% if post.author %}
+    {{ post.author | remove: "<p>" | remove: "</p>" }} <br>
+{% endif %}
+
+{% if post.title %}
+    <b>{{ post.title }}.</b> <br>
+{% endif %}
+
+{%- if post.journal -%}
+    In <i>{{ post.journal }} </i>
+{%- endif -%}
+
+{%- if post.volume -%}
+    {{ post.volume -}}
+
+    {%- if post.number -%}
+        ({{ post.number -}})
+    {%- endif -%}
+{%- endif -%}
+
+{%- if post.pages -%}
+    :{{ post.pages | strip }}
+{%- endif -%}
+.
+{% include publication-weblink.html %}
+
+</p>
+
