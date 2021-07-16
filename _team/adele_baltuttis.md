@@ -6,10 +6,10 @@ name: Adele Baltuttis
 excerpt: "Wiss. Mitarbeiterin | Doktorandin"
 excerpt_separator: "<!--more-->"
 header:
-    teaser: /assets/images/team/adele-baltuttis-teaser.jpg
+    teaser: /assets/images/team/Adele_Baltuttis-teaser.jpg
 sidebar:
 - title: "Position"
-  image: /assets/images/team/adele-baltuttis.jpg
+  image: /assets/images/team/Adele_Baltuttis.jpg
   text: "Wissenschaftliche Mitarbeiterin"
 - label: "Email"
   icon: "fas fa-fw fa-envelope-square"
