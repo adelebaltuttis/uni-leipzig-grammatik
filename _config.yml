@@ -86,6 +86,8 @@ collections:
     output: true
   lehraktivitaeten: 
     output: true
+  forschung:
+    output: true
 
 # Social Sharing
 twitter:
@@ -334,5 +336,13 @@ defaults:
       type: lehraktivitaeten
     values:
       layout: single
+      author_profile: false
+      share: true
+  # _forschungsschwerpunkte
+  - scope:
+      path: ""
+      type: forschung
+    values:
+      layout: forschungsschwerpunkt
       author_profile: false
       share: true
