@@ -4,19 +4,19 @@ classes: wide
 title: "Maximilian Frankowsky"
 name: Maximilian Frankowsky
 last_name: Frankowsky
-excerpt: "Post Apokalyptischer Mitarbeiter"
+excerpt: "Wissenschaftlicher Mitarbeiter"
 excerpt_separator: "<!--more-->"
 accordion:
 - title: Publikationen
 header:
-  teaser: /assets/images/team/mad-max-teaser.jpg
+  teaser: /assets/images/team/max-frankowsky-teaser.jpg
 sidebar:
 - title: "Position"
-  image: /assets/images/team/mad-max.jpg
+  image: /assets/images/team/max-frankowsky.jpg
   text: "Wissenschaftlicher Mitarbeiter"
 - label: "Email"
   icon: "fas fa-fw fa-envelope-square"
-  url: mailto:mad@max.com
+  url: mailto:maximilain.frankowsky@uni-leipzig.de.com
 - title: "Sprechzeiten"
   text: "Freitags 13:30 – 14:30 Uhr <br> Vereinbarung per E-Mail"
 - title: "Anschrift"

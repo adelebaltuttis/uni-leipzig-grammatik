@@ -1,4 +1,5 @@
 ---
+published: false
 layout: person
 classes: wide
 title: "David Bowie"

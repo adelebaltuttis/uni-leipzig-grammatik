@@ -23,7 +23,7 @@ accordion:
      content: "B.A.-Studiengang „Sprache und Kommunikation“ an der Philipps-Universität Marburg"
 - title: Publikationen
 header:
-  teaser: /assets/images/team/placeholder_teaser.png
+  teaser: /assets/images/team/christian_forche-teaser.jpg
 sidebar:
 - title: "Position"
   image: /assets/images/team/christian_forche.jpg

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: person
 name: James Bond
 last_name: Bond

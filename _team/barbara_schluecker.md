@@ -1,7 +1,7 @@
 ---
 layout: person
 classes: wide
-title: "Dr. Barbara Schlücker"
+title: "Prof. Dr. Barbara Schlücker"
 last_name: Schlücker
 position: Universitätsprofessorin
 excerpt: "Universitätsprofessorin"
@@ -21,10 +21,10 @@ accordion:
 
 - title: Publikationen
 header:
-  teaser: /assets/images/team/placeholder_teaser.png
+  teaser: /assets/images/team/barbara-schluecker-teaser.jpg
 sidebar:
 - title: "Position"
-  image: /assets/images/team/photo_placeholder.png
+  image: /assets/images/team/barbara-schluecker.jpg
   text: "Universitätsprofessorin"
 - label: "Email"
   icon: "fas fa-fw fa-envelope-square"

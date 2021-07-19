@@ -15,7 +15,7 @@ accordion:
      content: 
 - title: Publikationen
 header:
-  teaser: /assets/images/team/placeholder_teaser.png
+  teaser: /assets/images/team/eva-kosmata-teaser.jpg
 sidebar:
 - title: "Position"
   image: /assets/images/team/eva-kosmata.jpg

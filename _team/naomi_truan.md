@@ -4,10 +4,10 @@ classes: wide
 title: " Dr. Naomi Truan"
 name: Naomi Truan
 header:
-  teaser: /assets/images/team/placeholder_teaser.png
+  teaser: /assets/images/team/naomi-truan-teaser.jpg
 sidebar:
 - title: ""
-  image: /assets/images/team/photo_placeholder.png
+  image: /assets/images/team/naomi-truan.jpg
   image_alt: "logo"
   text: "Wissenschaftliche Mitarbeiterin"
 - title: "Anschrift"
