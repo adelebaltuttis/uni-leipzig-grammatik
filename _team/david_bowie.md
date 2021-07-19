@@ -1,8 +1,8 @@
 ---
-layout: person
-classes: wide
+layout      : person
+classes     : wide
+published   : false
 title: "David Bowie"
-name: David Bowie
 last_name: Bowie
 position: Rock Star
 excerpt: "David Bowie is the best."

@@ -1,7 +1,7 @@
 ---
-layout: person
-name: James Bond
-last_name: Bond
+name            : James Bond
+last_name       : Bond
+published       : false
 accordion:
 - title: Ausbildung
   subitems:

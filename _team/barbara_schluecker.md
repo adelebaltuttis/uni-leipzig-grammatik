@@ -5,8 +5,9 @@ title: "Dr. Barbara Schlücker"
 last_name: Schlücker
 position: Universitätsprofessorin
 excerpt: "Universitätsprofessorin"
+# Accordion Content
 accordion:
-- title: Berufliche Laufbahn
+- title: "Berufliche Laufbahn"
   subitems:
     - label   : "seit 10/2017"
       content : "Professorin für Germanistische Linguistik (W3) an der Universität Leipzig"
@@ -18,8 +19,8 @@ accordion:
     content   : "Habilitation, Freie Universität Berlin (Venia legendi: Deutsche Sprachwissenschaft und Niederländische Sprachwissenschaft)"
   - label     : 09/2006
     content   : Dr. phil., Humboldt-Universität zu Berlin (Germanistische Linguistik)
-
 - title: Publikationen
+
 header:
   teaser: /assets/images/team/placeholder_teaser.png
 sidebar:

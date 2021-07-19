@@ -319,9 +319,11 @@ defaults:
       path: ""
       type: team
     values:
-      layout: single
+      layout: person
       author_profile: false
       share: false
+      header:
+        teaser: /assets/images/team/placeholder_teaser.png
   # _publikationen
   - scope:
       path: ""
