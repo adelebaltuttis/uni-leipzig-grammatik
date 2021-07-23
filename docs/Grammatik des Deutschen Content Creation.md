@@ -296,3 +296,232 @@ Die obige Front Matter produziert die folgenden Inhalt für das Team Mitglied "M
 
 <div style="text-align:center">Bild: Max Mustermann Detail Seite</div>
 
+## Wie lege ich Publikationen an?
+
+#### Basisinformationen
+
+Um Publikationen zu erstellen müssen neue Markdowndateien in der Kollektion  `_publikationen` angelegt werden. Jede Publikation benötigt eine eigene Datei.
+
+Bei der Namensgebung von neuen Dateien bitte folgendes beachten:
+
+- Es dürfen keine Umlaute benutzt werden.
+- Es werden keine Großbuchstaben genutzt.
+- Für Leerzeichen wird `Kebab Case` genutzt *(Trennung durch Bindestriche)*
+- Dateinamen folgen dem Muster: Jahr der Veröffentlichung, Autor, Titel (in Kurzform) (z.B. 2013-mustermann-syntax-des-deutschen).
+
+
+
+![image-20210723165107711](Grammatik des Deutschen Content Creation.assets/image-20210723165107711.png)
+
+
+
+#### Arten von Publikationen
+
+Es gibt verschiedene 4 Arten von Publikationen, die angelegt werden können:
+
+##### book
+
+ *book* für **Monographien** oder Herausgeberschaften
+
+```yaml
+---
+type      : book
+author    : Susskind L.; Hrabovsky G.
+title     : "Classical mechanics: the theoretical minimum"
+publisher : Penguin Random House
+address   : New York, NY
+year      : 2000-01-01
+isbn      : 9780141976228
+weblink   : https://www.amazon.de/Classical-Mechanics-Theoretical-Minimum/dp/0141976225
+---
+
+```
+
+
+
+ *book* für Monographien oder **Herausgeberschaften**
+
+```yaml
+---
+type      : book
+author    : Susskind L.(Hrsg.)
+title     : "Classical mechanics: the theoretical minimum"
+publisher : Penguin Random House
+address   : New York, NY
+year      : 2000-01-01
+isbn      : 9780141976228
+weblink   : https://www.amazon.de/Classical-Mechanics-Theoretical-Minimum/dp/0141976225
+---
+
+```
+
+
+
+##### article
+
+*article* für Veröffentlichungen in Zeitschriften
+
+```yaml
+---
+type        : article   
+author      : Mustermann M.
+title       : The independence of the continuum hypothesis
+journal     : Proceedings of the National Academy of Sciences
+volume      : 42
+number      : 3
+pages       : 122-211
+year        : 2000-01-01
+doi         : 10.1016/j.ipm.2015.08.003
+weblink     : https://www.sciencedirect.com/science/article/pii/S0306457315001041
+---
+
+This is an example of a paper.
+The doi flag and weblink flag are optional.
+If either one is defined, then a link will be generated.
+```
+
+
+
+##### inbook
+
+*inbook* für Veröffentlichungen in Sammelbänden
+
+```yaml
+---
+type        : inbook
+author      : "Mustermann M.; Bowie D."
+title       : "Chapter 1: Photosynthesis"
+booktitle   : Campbell Biology
+year        : 2000-01-01
+publisher   : Acme Publishing House
+address     : Musterhausen
+pages       : 120-130 
+doi         : 10.1016/j.ipm.2015.08.003
+---
+```
+
+##### conference
+
+*conference* für Veröffentlichungen von Konferenzbeiträgen
+
+```yaml
+---
+type        : inproceedings
+author      : "Holleis, P.; Wagner, M.; Koolwaaij, J."
+title       : "Studying mobile context-aware social services in the wild"
+booktitle   : "Proceedings of the 6th Nordic Conference on Human-Computer Interaction"
+series      : "NordiCHI' 12"
+year        : 2000-01-01
+pages       : 207-216
+publisher   : ACM
+address     : New York, NY
+weblink     : http://xkcd.com
+---
+
+This is an example of a paper from a conference.
+The doi flag and weblink flag are optional.
+If either one is defined, then a link will be generated.
+```
+
+
+
+#### Wichtige Hinweise
+
+- Der gesamte Eintrag muss oben und unter zwischen 3 Bindestrichen stehen.
+
+![image-20210723171652781](Grammatik des Deutschen Content Creation.assets/image-20210723171652781.png)
+
+
+
+
+
+- Die flags *type*, *author* und *year* sind relevant für die spätere automatische Sortierung und sind obligatorisch.
+
+![image-20210723171227502](Grammatik des Deutschen Content Creation.assets/image-20210723171227502.png)
+
+
+
+
+
+- Falls sich im Text (*außer weblink*) Sonderzeichen befinden sollten (z.B.: Doppelpunkte, Anführungszeichen (einfach und doppelt), Semikolons o.Ä.) muss der Text in Anführungszeichen gesetzt werden, da es sonst zu Problemen bei der Darstellung im Frontmatter kommen kann.
+
+![image-20210723171431020](Grammatik des Deutschen Content Creation.assets/image-20210723171431020.png)
+
+
+
+- *year* erfordert ein vollständiges Datum stehen im Format (jjjj-mm-tt). Dabei ist jedoch nur das Jahr relevant.
+
+![image-20210723172030450](Grammatik des Deutschen Content Creation.assets/image-20210723172030450.png)
+
+
+
+## Wie lege ich Lehraktivitäten an?
+
+#### Basisinformationen
+
+Um Lehraktivitäten zu erstellen müssen neue Markdowndateien in der Kollektion  `_lehraktivitaeten` angelegt werden. Jedes Semester benötigt eine eigene Datei.
+
+Bei der Namensgebung von neuen Dateien bitte folgendes beachten:
+
+- Es dürfen keine Umlaute benutzt werden.
+- Es werden keine Großbuchstaben genutzt.
+- Für Leerzeichen wird `Kebab Case` genutzt *(Trennung durch Bindestriche)*
+- Dateinamen folgen dem Muster: **Jahr** und **Semester**. (Wintersemester werden nur mit einer Jahreszahl an dieser Stelle versehen.
+  - Bsp: WiSe 2019/20 bekommt als Dateinamen 2020)
+
+![image-20210723172720020](Grammatik des Deutschen Content Creation.assets/image-20210723172720020.png)
+
+#### Semester anlegen
+
+Im Frontmatter müssen *year* und *title* definiert werden.
+
+Nach *year* muss ein vollständiges Datum stehen im Format jjjj-mm-tt. 
+
+Für das WiSe wird den 01.10. und für die SoSe der 01.04. verwendet.
+
+![image-20210723173345794](Grammatik des Deutschen Content Creation.assets/image-20210723173345794.png)
+
+
+
+Die Lehrveranstaltungen werden unter dem Frontmatter nach dem folgenden Schema gelistet:
+
+**Name des Moduls (Modulnummer)**
+
+\- Veranstaltungsart: Name der Veranstaltung *(Name des Dozierenden)*
+
+
+
+```yaml
+---
+year: 2018-04-01
+title: Sommersemester 2018
+---
+
+**Grundlagen der germanistischen Sprachwissenschaft (04-003-1101)**
+- Seminar: Sprachgeschichte *(Lehmann)*
+
+**System der deutschen Sprache (04-003-1103)**
+- Seminar: Phonetik und Phonologie *(Forche)*
+- Seminar: Semantik *(Schlücker)*
+
+**Ausgewählte Aspekte und Probleme des Sprachsystems des Deutschen (04-003-1108)**
+- Vorlesung: Wortbildung *(Schlücker)*
+
+**Aspekte sprachwissenschaftlicher Forschung 1 (04-003-2001)**
+- Seminar: Probleme syntaktischer Kategorisierung *(Döring)*
+
+**Grammatische Grundlagen (04-003-2003)**
+- Seminar & Übung: Kritische Auseinandersetzung mit der Schulgrammatik/Schulgrammatische Übung *(Lehmann)*
+
+**Aspekte sprachwissenschaftlicher Forschung 3 (04-003-2007)**
+- Seminar: Wortbildungsmorphologie *(Frankowsky)*
+
+**Grammatik und Lexikon (04-040-2002)**
+- Vorlesung: Phraseologie *(Schlücker)*
+- Kolloquium: Phraseologie *(Schlücker)*
+- Seminar: Die Nominalphrase in den germanischen Sprachen *(Schlücker)*
+
+**Geschichte der deutschen Sprache (Teil 1) (04-003-WBSS-1)**
+- Seminar: Sprachgeschichte *(Lehmann)*
+```
+
