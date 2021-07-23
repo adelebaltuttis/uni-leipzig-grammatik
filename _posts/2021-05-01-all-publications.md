@@ -163,20 +163,3 @@ title: ""Syntaxis", Syntaxmodul inkl. Übungsaufgaben des eLearning-Programms Ne
 year: 2003-01-01
 
 
-Projekte
-
-Enge Apposition im Deutschen und Niederländischen
-Schlücker, Barbara
-Laufzeit: 01.2019 - laufend
-Beteiligte Organisationseinheiten der UL: Germanistische Linguistik/Grammatik
-
-Komposita und Mehrwortlexeme
-Schlücker, Barbara
-Laufzeit: 01.2017 - laufend
-Beteiligte Organisationseinheiten der UL: Germanistische Linguistik/Grammatik
-
-Eigennamenkomposita im Deutschen
-Schlücker, Barbara
-Laufzeit: 04.2014 - laufend
-Mittelgeber: DFG Deutsche Forschungsgemeinschaft
-Beteiligte Organisationseinheiten der UL: Germanistische Linguistik/Grammatik
