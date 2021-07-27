@@ -25,22 +25,32 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
                     {% assign publicationsByAuthor = collection.docs
                         | sort: "year"
                         | reverse
-                        | where_exp: "item", "item.author contains page.last_name" %}
+                        | where_exp: "item", "item.author contains page.last_name"
+                        | group_by_exp: 'post', 'post.year | date: "%Y"'
+                    %}
                 {% endif %}
             {% endfor %}
 
-            {% for post in publicationsByAuthor %}
-                {% if post.type == "article" %}
-                    {% include article.html %}
-                {% elsif post.type == "book" %}
-                    {% include book.html %}
-                {% elsif post.type == "inbook" %}
-                {% include inbook.html %}
-                {% elsif post.type == "inproceedings" %}
-                    {% include inproceedings.html %}
-                {% else %}
-                    {% include publication.html %}
-                {% endif %}
+            {% for year in publicationsByAuthor %}
+
+                <section id="{{ year.name }}" class="taxonomy__section">
+                <h2 class="archive__subtitle">{{ year.name }}</h2>
+
+                {% for post in year.items %}
+                    {% if post.type == "article" %}
+                        {% include article.html %}
+                    {% elsif post.type == "book" %}
+                        {% include book.html %}
+                    {% elsif post.type == "inbook" %}
+                        {% include inbook.html %}
+                    {% elsif post.type == "inproceedings" %}
+                        {% include inproceedings.html %}
+                    {% else %}
+                        {% include publication.html %}
+                    {% endif %}
+                {% endfor %}
+                <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+                </section>
             {% endfor %}
             </div>
         {% endif %}
