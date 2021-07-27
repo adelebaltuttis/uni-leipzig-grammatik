@@ -1,11 +1,14 @@
 ---
-layout: person
-classes: wide
-title: "Dr. Christian Forche"
-name: Christian Forche
-last_name: Forche
-position: Wissenschaftlicher Mitarbeiter
-excerpt: "Wissenschaftlicher Mitarbeiter"
+# General
+layout          : person
+classes         : wide
+title           : "Dr. Christian Forche"
+name            : Christian Forche
+last_name       : Forche
+position        : Wissenschaftlicher Mitarbeiter
+excerpt         : "Wissenschaftlicher Mitarbeiter"
+
+# Accordion Content
 accordion:
 - title: Berufliche Laufbahn 
   subitems:
@@ -30,6 +33,8 @@ accordion:
    - label: "10/2007 - 09/2010" 
      content: "B.A.-Studiengang „Sprache und Kommunikation“ an der Philipps-Universität Marburg"
 - title: Publikationen
+
+# Sidebar Content
 header:
   teaser: /assets/images/team/christian-forche-teaser.jpg
 sidebar:
@@ -42,7 +47,7 @@ sidebar:
 - title: "Telefon"
   text: "+49 (0)341 97 37 356"
 - title: "Sprechzeiten"
-  text: "<i>vorlesungsfreie Zeit</i>: <br> Mittwoch, 28.07.2021 (11 – 13 Uhr) <br> Mittwoch, 18.08.2021 (11 – 13 Uhr) <br> Mittwoch, 08.09.2021 (11 – 13 Uhr) <br> Hinweis: Bitte vorherige Anmeldung zur Sprechstunde per Mail. <br> <i>Wintersemester 2021/22</i> <br> Mittwoch: 11:30 – 12:30 Uhr <br> Bis auf Weiteres finden meine Sprechstunden via ZOOM statt."
+  text: "*vorlesungsfreie Zeit*: <br> Mittwoch, 28.07.2021 (11 – 13 Uhr) <br> Mittwoch, 18.08.2021 (11 – 13 Uhr) <br> Mittwoch, 08.09.2021 (11 – 13 Uhr) <br> Hinweis: Bitte vorherige Anmeldung zur Sprechstunde per Mail. <br> *Wintersemester 2021/22* <br> Mittwoch: 11:30 – 12:30 Uhr <br> Bis auf Weiteres finden meine Sprechstunden via ZOOM statt."
 - title: "Anschrift"
   text: "Germanistische Linguistik, Geisteswissenschaftliches Zentrum, Beethovenstraße 15, Raum 1406 04107 Leipzig"
 
