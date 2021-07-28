@@ -2,7 +2,7 @@
 type        : article
 author      : "Frankowsky, M."
 title       : "Marcel Schlechtweg: Memorization and the compound-phrase distinction. An investigation of complex constructions in German, French and English. Berlin, Boston: De Gruyter"
-journal     : Zeitschrift für Rezensionen zur germanistischen Sprachwissenschaft
+journal     : "Zeitschrift für Rezensionen zur germanistischen Sprachwissenschaft"
 volume      : 11
 number      : 1-2
 pages       : 205-210
