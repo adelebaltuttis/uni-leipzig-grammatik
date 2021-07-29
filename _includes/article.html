@@ -10,7 +10,7 @@
 {% endif %}
 
 {%- if post.journal -%}
-    In <i>{{ post.journal }} </i>
+    In <i>{{ post.journal | strip -}} </i>
 {%- endif -%}
 
 {%- if post.volume -%}
