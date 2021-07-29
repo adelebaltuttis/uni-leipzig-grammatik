@@ -1,0 +1,23 @@
+{% capture written_label %}'None'{% endcapture %}
+
+<p>
+{% if post.author %}
+    {{ post.author | remove: "<p>" | remove: "</p>" }} <br>
+{% endif %}
+
+{% if post.title %}
+    <b>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}.</b> <br>
+{% endif %}
+
+{% include publication-weblink.html %}
+
+{% if post.year %}
+    {{ post.year | date: "%Y" }}.
+{% endif %}
+
+{% if post.note %}
+    {{ post.note }}.
+{% endif %}
+
+</p>
+

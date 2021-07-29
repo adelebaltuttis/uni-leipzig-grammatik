@@ -1,9 +1,9 @@
 ---
-permalink: /publikationen/
-title: Publikationen
-collection: publikationen
-layout: collection-publication
-publication_profile: true
+permalink           : /publikationen/
+title               : Publikationen
+collection          : publikationen
+layout              : collection-publication
+publication_profile : true
 # layout: categories
 classes: wide
 header:
