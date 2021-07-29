@@ -16,12 +16,6 @@ accordion:
       content: "Im akademischen Jahr 2021-2022 hat die Auswahlkommission bestehend aus Mitgliedern der Leitung des Hochschuldidaktischen Zentrums Sachsen sowie des Arbeitskreises E-Learning der LRK Sachsen die finanzielle Unterstützung meines Vorhabens empfohlen. In diesem Rahmen durfte ich zusammen mit Dennis Dressel ein neues Lehrkonzept entwickeln."
     - label: "Fellowship Freies Wissen (01.09.2020 - 30.06.2021)"
       content: "Das Fellow-Programm Freies Wissen richtet sich an Doktorand*innen, Post-Docs und Juniorprofessor*innen, die ihre Forschungsprozesse offen gestalten möchten. Sie werden mit 5.000 Euro sowie einem intensiven Mentoring- und Qualifizierungsangebot gefördert, um sie bei der Öffnung der eigenen wissenschaftlichen Arbeit zu unterstützen."
-- title: Ausbildung
-  subitems:
-   - label:  ""
-     content: ""
-   - label: ""
-     content: ""
 
 # sidebar
 header:
@@ -51,7 +45,7 @@ Meine Arbeitsschwerpunkte in Forschung und Lehre liegen in den Bereichen Pragmat
 
 Im Jahre 2021 wurde ich mit dem studentischen Lehrpreis für engagierte digitale Lehre der Universität Leipzig ausgezeichnet.
 
-Mehr Informationen zu meinem Profil können Sie auf meinem wissenschaftlichen Blog lesen: [https://icietla.hypotheses.org/about](https://icietla.hypotheses.org/about). 
+Mehr Informationen zu meinem Profil können Sie auf meinem [wissenschaftlichen Blog](https://icietla.hypotheses.org/about](https://icietla.hypotheses.org/about)) lesen.
 
 
-Eine Liste meiner aktuellen Vorträge finden Sie hier: [https://icietla.hypotheses.org/talks](https://icietla.hypotheses.org/talks). 
+Hier finde Sie eine Liste meiner aktuellen [Vorträge](https://icietla.hypotheses.org/talks).
