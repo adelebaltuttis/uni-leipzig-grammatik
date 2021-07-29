@@ -7,5 +7,5 @@ journal     : Zeitschrift für Angewandte Linguistik
 number      : 1
 volume      : 67
 year        : 2017-01-01
-pages       : 149--177
+pages       : 149-177
 ---
