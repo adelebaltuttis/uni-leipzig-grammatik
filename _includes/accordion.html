@@ -47,6 +47,8 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
                         {% include inproceedings.html %}
                     {% elsif post.type == "misc" %}
                         {% include publication-misc.html %}
+                    {% elsif post.type == "incollection" %}
+                        {% include publication-incollection.html %}
                     {% else %}
                         {% include publication.html %}
                     {% endif %}

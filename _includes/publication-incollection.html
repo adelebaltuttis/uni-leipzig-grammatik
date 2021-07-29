@@ -11,7 +11,11 @@
 {% endif %}
 
 {%- if post.booktitle -%}
-    In: <i> {{ post.booktitle -}}: </i>
+    In:
+    {% if post.editor %}
+        {{ post.editor }} (Hrsg.),
+    {% endif %}
+    <i> {{ post.booktitle -}}: </i>
 {%- endif -%}
 
 {%- if post.pages -%}
@@ -22,9 +26,12 @@
     {{ post.publisher }}.
 {% endif %}
 
+
+
 {% if post.address %}
     {{ post.address }}.
 {% endif %}
+
 
 {% include publication-weblink.html %}
 

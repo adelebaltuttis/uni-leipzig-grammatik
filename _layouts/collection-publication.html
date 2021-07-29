@@ -36,6 +36,8 @@ layout: archive
                          {% include inproceedings.html %}
                     {% elsif post.type == "misc" %}
                         {% include publication-misc.html %}
+                    {% elsif post.type == "incollection" %}
+                        {% include publication-incollection.html %}
                     {% else %}
                         {% include publication.html %}
                     {% endif %}
