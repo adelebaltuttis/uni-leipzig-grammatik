@@ -30,7 +30,7 @@ logo                     : assets/images/institut_logo.svg # path of logo image 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 include                  : ["_pages"] # required for saving pages in subfolder /_pages
 parent_url               : "https://www.philol.uni-leipzig.de/institut-fuer-germanistik/"
-publication_year_cutoff  : 2000
+publication_year_cutoff  : 2016
 privacy_policy_url       : /datenschutz
 
 breadcrumbs              : true # true, false (default)
