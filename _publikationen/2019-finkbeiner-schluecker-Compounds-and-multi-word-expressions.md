@@ -3,7 +3,7 @@ type            : incollection
 author          : "Finkbeiner, R.; Schlücker, B."
 editor          : Schlücker, B. 
 title           : "Compounds and multi-word expressions in the languages of Europe"
-booktitle       : "Complex Lexical Units: Compounds and Multi-Word Expressions."
+booktitle       : "Complex Lexical Units: Compounds and Multi-Word Expressions"
 year            : 2019-01-01
 publisher       : De Gruyter
 address         : Berlin, Boston
