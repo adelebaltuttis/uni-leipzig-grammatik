@@ -1,4 +1,9 @@
+<!-- Covers url links for misc bibtex type -->
+{% if post.howpublished and post.type == "misc"%}
+    Published: <a href="{{ post.howpublished }}">{{ post.howpublished }}</a>,
+{% endif %}
 
+<!-- Covers DOI and weblink for any bibtex type -->
 {% if post.doi and post.weblink %}
     <br><a href="{{ post.weblink }}">DOI: {{ post.doi }}</a>
 {% elsif post.doi %}

@@ -10,7 +10,7 @@
 {% endif %}
 
 {%- if post.journal -%}
-    In <i>{{ post.journal }} </i>
+    In: <i>{{ post.journal }} </i>
 {%- endif -%}
 
 {%- if post.volume -%}
@@ -22,7 +22,7 @@
 {%- endif -%}
 
 {%- if post.pages -%}
-    :{{ post.pages | strip }}
+    : {{ post.pages | strip }}
 {%- endif -%}
 .
 {% include publication-weblink.html %}
