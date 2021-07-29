@@ -17,11 +17,11 @@ minimal_mistakes_skin    :  "default"
 
 # Site Settings
 locale                   : "de-DE"
-title                    : # Grammatik des Deutschen
+title                    : Grammatik des Deutschen
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Uni Leipzig"
-description              : "An amazing website."
+name                     : "Uni Leipzig: Grammatik des Deutschen"
+description              : "Homepage der Arbeitsgruppe Grammatik des Deutschen im Institut für Germanistik der Universität Leipzig."
 url                      : https://home.uni-leipzig.de # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /grammatik-des-deutschen # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
