@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Buchveröffentlichung: <br> The Politics of Person Reference"
-date:   2021-07-19 16:58:45 +0200
-classes: wide
+layout      : single
+title       : "Buchveröffentlichung: <br> The Politics of Person Reference"
+date        : 2021-07-19 
+classes     : wide
+header      :
+    teaser      : /assets/images/teaser/new-publication.png
 ---
 
 Das neue [Buch](https://benjamins.com/catalog/pbns.320) *The Politics of Person Reference* von Dr. Naomi Truan ist erschienen. 
