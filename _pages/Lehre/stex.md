@@ -1,7 +1,7 @@
 ---
-permalink: /lehre/Stex/
-title: Staatsexamensarbeiten
-classes: wide
+permalink		: /lehre/stex/
+title			: Staatsexamensarbeiten
+classes			: wide
 ---
 
 - Abbildtheorie vs. Systemtheorie – Eine Erhebung der Silbengelenkschreibung von Drittklässlern und Drittklässlerinnen 
