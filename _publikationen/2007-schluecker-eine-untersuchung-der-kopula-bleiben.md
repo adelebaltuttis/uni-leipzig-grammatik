@@ -1,7 +1,7 @@
 ---
 type      : book
 author    : Schlücker, B.
-title     : "Diskurs im Lexikon. Eine Untersuchung der Kopula 'bleiben'"
+title     : "Diskurs im Lexikon. Eine Untersuchung der Kopula <i>bleiben</i>"
 publisher : Stauffenburg
 address   : Tübingen
 year      : 2007-01-01

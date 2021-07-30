@@ -1,9 +1,10 @@
 ---
-type: inbook
+type: incollection
 author: Döring, S.
+editor: Friederike Spitzl-Dupic
 year: 2018-01-01
 title: Vorschlag einer syntaktischen Analyse von Parenthesen
-booktitle: Friederike Spitzl-Dupic (Hrsg.). Parenthetische Einschübe - Parenthèses
+booktitle: Parenthetische Einschübe - Parenthèses
 publisher   : Eurogermanistica
 address     : Tübingen, Stauffenburg
 pages: 209-226

@@ -1,7 +1,7 @@
 ---
 type        : article   
 author      : Schlücker, B.
-title       : "Van 'nae des Conings doot' tot 'het milieu der musical-fanaten'. De ontwikkeling van de genitief in het Nederlands en in het Duits. RECENSIE van Scott (2014), The Genitive Case in Dutch and German. A Study of Morphosyntactic Change in Codified Languages"
+title       : "Van <i>nae des Conings doot</i> tot <i>het milieu der musical-fanaten</i>. De ontwikkeling van de genitief in het Nederlands en in het Duits. RECENSIE van Scott (2014), The Genitive Case in Dutch and German. A Study of Morphosyntactic Change in Codified Languages"
 journal     : Internationale Neerlandistiek
 volume      : 52
 number      : 3

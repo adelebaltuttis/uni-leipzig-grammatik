@@ -1,7 +1,7 @@
 ---
 type        : inbook
 author      : Schlücker, B.
-title       : "'Bleiben' - eine unterspezifizierte Kopula"
+title       : "<i>Bleiben</i> - eine unterspezifizierte Kopula"
 booktitle   : "Kopulaverben und Kopulasätze: Intersprachliche und intrasprachliche Aspekte"
 year        : 2007-01-01
 publisher   : Niemeyer
