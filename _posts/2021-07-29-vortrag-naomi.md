@@ -1,8 +1,10 @@
 ---
-layout: single
-title:  "Vortrag 15.09. - 17.09.21: <br> Grammatik erforschen, erleben, unterrichten"
-date:   2021-07-29 09:58:45 +0200
-classes: wide
+layout      : single
+title       : "Vortrag 15.09. - 17.09.21: <br> Grammatik erforschen, erleben, unterrichten"
+date        : 2021-07-29 09:58:45 +0200
+header      :
+    teaser  : /assets/images/teaser/lecture.jpg
+classes     : wide
 ---
 
 ## Dr. Naomi Truan

@@ -4,7 +4,7 @@ title:  "SPIGL-Vorträge"
 date:   2021-06-13 16:58:45 +0200
 classes: wide
 header:
-  teaser: /assets/images/team/sponge_bob.png
+  teaser: /assets/images/teaser/lecture-02.jpg
 categories: Vortrag
 tags:
   - Germanistik
