@@ -1,7 +1,8 @@
 ---
 permalink       : /datenschutz/
 title           : Datenschutzerklärung
-# classes         : wide
+description     : Datenschutz
+classes         : single
 toc             : true
 header:
     image: assets/images/banner/datenschutz_default.jpg

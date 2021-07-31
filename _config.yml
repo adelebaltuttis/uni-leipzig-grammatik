@@ -21,7 +21,7 @@ title                    : Grammatik des Deutschen
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Uni Leipzig: Grammatik des Deutschen"
-description              : "Homepage der Arbeitsgruppe Grammatik des Deutschen im Institut für Germanistik der Universität Leipzig. Prof. Dr. Barbara Schlücker und ihre Arbeitsgruppe befassen sich mit der Grammatik der deutschen Gegenwartssprache."
+description              : "Homepage der Arbeitsgruppe Grammatik des Deutschen im Institut für Germanistik der Universität Leipzig. Prof. Dr. Barbara Schlücker und ihre Arbeitsgruppe befassen sich mit der Grammatik der deutschen Gegenwartssprache. Die thematischen Schwerpunkte der Professur liegen in den Bereichen Morphologie und Syntax, Lexikon, Grammatik der Eigennamen, Kontrastive Linguistik und Grammatik für die Schule."
 url                      : https://home.uni-leipzig.de # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /grammatik-des-deutschen # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -32,6 +32,8 @@ include                  : ["_pages"] # required for saving pages in subfolder /
 parent_url               : "https://www.philol.uni-leipzig.de/institut-fuer-germanistik/"
 publication_year_cutoff  : 2016
 privacy_policy_url       : /datenschutz
+sitemap_url              : /sitemap
+impressum_url            : /impressum
 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -310,6 +312,7 @@ defaults:
       author_profile: false
       publication_profile: false
       layout: single
+      classes: wide
       header:
         #image: /assets/images/banner/home_panorama.png
         #image: /assets/images/banner/home_abstract.png
