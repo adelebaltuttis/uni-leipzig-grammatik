@@ -2,9 +2,10 @@
 layout: person
 classes: wide
 title: "Prof. Dr. Barbara Schlücker"
-last_name: Schlücker
-position: Universitätsprofessorin
-excerpt: "Universitätsprofessorin"
+last_name     : Schlücker
+position      : Universitätsprofessorin
+excerpt       : "Universitätsprofessorin"
+description   : "Dr. Barbara Schlücker. Universitätsprofessorin. Germanistische Linguistik Geisteswissenschaftliches Zentrum Beethovenstraße 15, Raum 1408 04107 Leipzig."
 accordion:
 - title: Berufliche Laufbahn
   subitems:
