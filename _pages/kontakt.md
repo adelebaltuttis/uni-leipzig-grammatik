@@ -1,13 +1,12 @@
 ---
 permalink   : /kontakt/
 title       : Kontakt & Anfahrt
+description : "Hier finden Sie die Kontakt und Anfahrtsmöglichkeiten für die Gruppe Grammatik des Deutschen kontaktieren. Es werden Telefonnummer, Adresse, Faxnummer Email und OpenStreetMap angezeigt."
 email       : mkonrad@uni-leipzig.de
 mail-icon   : fas fa-fw fa-envelope-square
 mail-label  : E-Mail Schreiben
-header:
-#    image: assets/images/banner/kontakt_augustus.png
-#    image: assets/images/banner/kontakt_abstract.png
-    image: assets/images/banner/kontakt_default.jpg
+header      :
+    image   : assets/images/banner/kontakt_default.jpg
 ---
 
 ## Anschrift

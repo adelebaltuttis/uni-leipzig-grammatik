@@ -1,10 +1,10 @@
 ---
-layout: lehraktivitaet-archive
-permalink: /lehre/
-title: Lehre   
+layout      : lehraktivitaet-archive
+permalink   : /lehre/
+title       : Lehre
+description : "Enthält Hinweise für die Betreuung und Anfertigung von Abschlussarbeiten. Hier werden betreute Abschlussarbeiten und aktuelle sowie vergangene Lehraktivitäten aufgelistet."
 header:
     image: /assets/images/banner/lehre_default.jpg
-classes: wide
 ---
 
 ## Betreuung und Anfertigung von Abschlussarbeiten
